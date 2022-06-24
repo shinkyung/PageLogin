@@ -4,7 +4,7 @@ function App() {
   return (
   <section>
     <div class="img-bg">
-        <img src="./image1.jpg" alt = "Hình Ảnh Minh Họa"/>
+        <img src="./image.jpg" alt = "Picture"/>
     </div>
     <div class="icon">
         <img src="./BookStore.png" alt = "Logo"/>
@@ -34,6 +34,12 @@ function App() {
                     <p><a href="/#">Forget password </a></p>
                 </div>
             </form>
+            <h3>Login With</h3>
+            <ul class="icon">
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-google" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </ul>
         </div>
     </div>
   </section>
