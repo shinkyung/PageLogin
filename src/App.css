@@ -68,15 +68,60 @@ section .noi-dung .form h2{
   letter-spacing: 1px;
 }
 
-section .noi-dung .form .input-form{
+section .noi-dung .form .input{
   margin-bottom: 20px;
 }
 
 /*Username and password*/
-section .noi-dung .form .input-form span{
+section .noi-dung .form .input span{
   font-size: 16px;
   margin-bottom: 5px;
   display: inline-block;
   color: #607db8;
   letter-spacing: 1px;
+}
+
+/*Remember*/
+section .noi-dung .form .remember{
+  margin-bottom: 10px;
+  color: #607d8b;
+  font-size: 14px;
+}
+
+section .noi-dung .form .input input{
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #607d8b;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #607d8b;
+  background: transparent;
+  border-radius: 30px;
+}
+
+section .noi-dung .form .input input[type="submit"]{
+  background: #ff4584;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+             0 2px 2px rgba(0,0,0,0.12),
+             0 4px 4px rgba(0,0,0,0.12),
+            0 8px 8px rgba(0,0,0,0.12),
+            0 16px 16px rgba(0,0,0,0.12);
+}
+
+section .noi-dung .form .input input[type="submit"]:hover{
+  background: #f53677;
+}
+
+section .noi-dung .form .input p{
+  color: #607d8b;
+}
+
+section .noi-dung .form .input p a{
+  color: #ff4584;
 }

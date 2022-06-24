@@ -13,13 +13,25 @@ function App() {
         <div class="form">
             <h2>Sign in</h2>
             <form action="">
-                <div class="input-form">
+                <div class="input">
                     <span>Username</span>
                     <input type="text" name=""/>
                 </div>
-                <div class="input-form">
+                <div class="input">
                     <span>Password</span>
                     <input type="password" name=""/>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox" name=""/> Remember username</label>
+                </div>
+                <div class="input">
+                    <input type="submit" value="Login"/>
+                </div>
+                <div class="input">
+                    <p><a href="/#">Sign up</a></p>
+                </div>
+                <div class="input">
+                    <p><a href="/#">Forget password </a></p>
                 </div>
             </form>
         </div>
