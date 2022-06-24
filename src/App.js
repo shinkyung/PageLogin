@@ -9,7 +9,7 @@ function App() {
     <div class="icon">
         <img src="./BookStore.png" alt = "Logo"/>
     </div>
-    <div class="noi-dung">
+    <div class="content">
         <div class="form">
             <h2>Sign in</h2>
             <form action="">

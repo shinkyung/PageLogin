@@ -13,13 +13,13 @@ section{
 }
 
 /*Logo*/
-section .icon {
+.icon {
   position: relative;
   width: 45%;
   height: 100%;
 }
 
-section .icon img{
+.icon img{
   position: absolute;
   bottom: 73%;
   left: 210%;
@@ -29,13 +29,13 @@ section .icon img{
 }
 
 /*Image page*/
-section .img-bg{
+.img-bg{
   position: relative;
   width: 70%;
   height: 100%;
 }
 
-section .img-bg img{
+.img-bg img{
   position: absolute;
   top: 0;
   left: 0;
@@ -44,7 +44,7 @@ section .img-bg img{
   object-fit: cover;
 }
 
-section .noi-dung{
+.content{
   display: flex;
   justify-content: left;
   align-items: center;
@@ -52,12 +52,12 @@ section .noi-dung{
   height: 100%;
 }
 
-section .noi-dung .form{
+.content .form{
   width: 50%;
 }
 
 /*Sign in*/
-section .noi-dung .form h2{
+.content .form h2{
   color: #607d8b;
   font-weight: 600;
   font-size: 1.5em;
@@ -68,12 +68,12 @@ section .noi-dung .form h2{
   letter-spacing: 1px;
 }
 
-section .noi-dung .form .input{
+.content .form .input{
   margin-bottom: 20px;
 }
 
 /*Username and password*/
-section .noi-dung .form .input span{
+.content .form .input span{
   font-size: 16px;
   margin-bottom: 5px;
   display: inline-block;
@@ -82,13 +82,13 @@ section .noi-dung .form .input span{
 }
 
 /*Remember*/
-section .noi-dung .form .remember{
+.content .form .remember{
   margin-bottom: 10px;
   color: #607d8b;
   font-size: 14px;
 }
 
-section .noi-dung .form .input input{
+.content .form .input input{
   width: 100%;
   padding: 10px 20px;
   outline: none;
@@ -100,7 +100,7 @@ section .noi-dung .form .input input{
   border-radius: 30px;
 }
 
-section .noi-dung .form .input input[type="submit"]{
+.content .form .input input[type="submit"]{
   background: #ff4584;
   color: #fff;
   outline: none;
@@ -114,14 +114,14 @@ section .noi-dung .form .input input[type="submit"]{
             0 16px 16px rgba(0,0,0,0.12);
 }
 
-section .noi-dung .form .input input[type="submit"]:hover{
+.content .form .input input[type="submit"]:hover{
   background: #f53677;
 }
 
-section .noi-dung .form .input p{
+.content .form .input p{
   color: #607d8b;
 }
 
-section .noi-dung .form .input p a{
+.content .form .input p a{
   color: #ff4584;
 }
