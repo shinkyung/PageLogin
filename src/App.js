@@ -40,6 +40,11 @@ function App() {
                 <li><i class="fa fa-google" aria-hidden="true"></i></li>
                 <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
             </ul>
+            <div class='footer'>
+                &copy;
+                2022
+                Bookaholic Inc
+            </div>
         </div>
     </div>
   </section>

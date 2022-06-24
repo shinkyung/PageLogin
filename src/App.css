@@ -164,3 +164,10 @@ section{
 .content .form .icon li i{
   font-size: 24px;
 }
+
+.content .form .footer{
+  text-align: center;
+  margin: 80px 0 10px;
+  font-weight: 200;
+  font-size: 20px;
+}
