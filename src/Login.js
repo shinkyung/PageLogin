@@ -1,6 +1,6 @@
-import './App.css';
+import './Login.css';
 
-function App() {
+function Login() {
   return (
   <section>
     <div class="img-bg">
@@ -51,4 +51,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
