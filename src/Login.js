@@ -17,8 +17,16 @@ function Login() {
         var arr = document.getElementsByTagName('input');
         var Username = arr[0].value;
         var Password = arr[1].value;
-        console.log(Username)
-        console.log(Password)
+        var flag = 0;
+        account.map( check => {
+            if(Username === check.username && Password === check.password && flag === 0){
+                alert("Login successful!")
+                flag = 1
+            }
+        })
+        if(flag === 0){
+            alert("Login fail!")
+        }
     }
 
     return (
