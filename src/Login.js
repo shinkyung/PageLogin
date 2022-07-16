@@ -13,7 +13,14 @@ function Login() {
         fetchAccount();
     }, []);
 
-    
+    function onClickBtn(){
+        var arr = document.getElementsByTagName('input');
+        var Username = arr[0].value;
+        var Password = arr[1].value;
+        console.log(Username)
+        console.log(Password)
+    }
+
     return (
     <section>
         <div className = "img-bg">
@@ -38,7 +45,7 @@ function Login() {
                         <label><input type="checkbox" name = ""/> Remember username </label>
                     </div>
                     <div className = "input">
-                        <input type="submit" value="Login"/>
+                        <button type = "submit" onClick = {onClickBtn}> Login </button>
                     </div>
                     <div className = "input">
                         <p><a href="/#"> Sign up </a></p>
